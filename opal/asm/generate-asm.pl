@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env/perl -w
 #
 # Copyright (c) 2014 Cisco Systems, Inc.  All rights reserved.
 # $COPYRIGHT$

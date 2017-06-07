@@ -278,28 +278,28 @@ am__aclocal_m4_deps = $(top_srcdir)/config/c_get_alignment.m4 \
 	$(top_srcdir)/opal/mca/memory/configure.m4 \
 	$(top_srcdir)/opal/mca/pstat/configure.m4 \
 	$(top_srcdir)/opal/mca/timer/configure.m4 \
-	$(top_srcdir)/opal/mca/common/verbs_usnic/configure.m4 \
-	$(top_srcdir)/opal/mca/common/verbs/configure.m4 \
 	$(top_srcdir)/opal/mca/common/sm/configure.m4 \
-	$(top_srcdir)/opal/mca/common/libfabric/configure.m4 \
+	$(top_srcdir)/opal/mca/common/verbs_usnic/configure.m4 \
 	$(top_srcdir)/opal/mca/common/cuda/configure.m4 \
 	$(top_srcdir)/opal/mca/common/ugni/configure.m4 \
-	$(top_srcdir)/opal/mca/backtrace/none/configure.m4 \
+	$(top_srcdir)/opal/mca/common/libfabric/configure.m4 \
+	$(top_srcdir)/opal/mca/common/verbs/configure.m4 \
 	$(top_srcdir)/opal/mca/backtrace/printstack/configure.m4 \
 	$(top_srcdir)/opal/mca/backtrace/execinfo/configure.m4 \
-	$(top_srcdir)/opal/mca/btl/smcuda/configure.m4 \
-	$(top_srcdir)/opal/mca/btl/tcp/configure.m4 \
-	$(top_srcdir)/opal/mca/btl/portals4/configure.m4 \
+	$(top_srcdir)/opal/mca/backtrace/none/configure.m4 \
 	$(top_srcdir)/opal/mca/btl/sm/configure.m4 \
+	$(top_srcdir)/opal/mca/btl/portals4/configure.m4 \
 	$(top_srcdir)/opal/mca/btl/scif/configure.m4 \
-	$(top_srcdir)/opal/mca/btl/ugni/configure.m4 \
-	$(top_srcdir)/opal/mca/btl/vader/configure.m4 \
 	$(top_srcdir)/opal/mca/btl/usnic/configure.m4 \
+	$(top_srcdir)/opal/mca/btl/vader/configure.m4 \
+	$(top_srcdir)/opal/mca/btl/ugni/configure.m4 \
 	$(top_srcdir)/opal/mca/btl/openib/configure.m4 \
+	$(top_srcdir)/opal/mca/btl/tcp/configure.m4 \
+	$(top_srcdir)/opal/mca/btl/smcuda/configure.m4 \
 	$(top_srcdir)/opal/mca/dl/libltdl/configure.m4 \
 	$(top_srcdir)/opal/mca/dl/dlopen/configure.m4 \
-	$(top_srcdir)/opal/mca/event/libevent2022/configure.m4 \
 	$(top_srcdir)/opal/mca/event/external/configure.m4 \
+	$(top_srcdir)/opal/mca/event/libevent2022/configure.m4 \
 	$(top_srcdir)/opal/mca/hwloc/external/configure.m4 \
 	$(top_srcdir)/opal/mca/hwloc/hwloc1112/configure.m4 \
 	$(top_srcdir)/opal/mca/hwloc/hwloc1112/hwloc/config/hwloc.m4 \
@@ -308,60 +308,60 @@ am__aclocal_m4_deps = $(top_srcdir)/config/c_get_alignment.m4 \
 	$(top_srcdir)/opal/mca/hwloc/hwloc1112/hwloc/config/hwloc_check_visibility.m4 \
 	$(top_srcdir)/opal/mca/hwloc/hwloc1112/hwloc/config/hwloc_check_vendor.m4 \
 	$(top_srcdir)/opal/mca/hwloc/hwloc1112/hwloc/config/hwloc_components.m4 \
-	$(top_srcdir)/opal/mca/if/solaris_ipv6/configure.m4 \
 	$(top_srcdir)/opal/mca/if/posix_ipv4/configure.m4 \
-	$(top_srcdir)/opal/mca/if/bsdx_ipv4/configure.m4 \
-	$(top_srcdir)/opal/mca/if/linux_ipv6/configure.m4 \
 	$(top_srcdir)/opal/mca/if/bsdx_ipv6/configure.m4 \
+	$(top_srcdir)/opal/mca/if/linux_ipv6/configure.m4 \
+	$(top_srcdir)/opal/mca/if/solaris_ipv6/configure.m4 \
+	$(top_srcdir)/opal/mca/if/bsdx_ipv4/configure.m4 \
 	$(top_srcdir)/opal/mca/installdirs/config/configure.m4 \
 	$(top_srcdir)/opal/mca/installdirs/env/configure.m4 \
 	$(top_srcdir)/opal/mca/memchecker/valgrind/configure.m4 \
-	$(top_srcdir)/opal/mca/memory/malloc_solaris/configure.m4 \
 	$(top_srcdir)/opal/mca/memory/patcher/configure.m4 \
+	$(top_srcdir)/opal/mca/memory/malloc_solaris/configure.m4 \
 	$(top_srcdir)/opal/mca/mpool/memkind/configure.m4 \
 	$(top_srcdir)/opal/mca/patcher/overwrite/configure.m4 \
-	$(top_srcdir)/opal/mca/pmix/cray/configure.m4 \
-	$(top_srcdir)/opal/mca/pmix/s2/configure.m4 \
 	$(top_srcdir)/opal/mca/pmix/external/configure.m4 \
-	$(top_srcdir)/opal/mca/pmix/s1/configure.m4 \
 	$(top_srcdir)/opal/mca/pmix/pmix112/configure.m4 \
-	$(top_srcdir)/opal/mca/pstat/linux/configure.m4 \
+	$(top_srcdir)/opal/mca/pmix/s2/configure.m4 \
+	$(top_srcdir)/opal/mca/pmix/cray/configure.m4 \
+	$(top_srcdir)/opal/mca/pmix/s1/configure.m4 \
 	$(top_srcdir)/opal/mca/pstat/test/configure.m4 \
-	$(top_srcdir)/opal/mca/rcache/rgpusm/configure.m4 \
+	$(top_srcdir)/opal/mca/pstat/linux/configure.m4 \
 	$(top_srcdir)/opal/mca/rcache/udreg/configure.m4 \
 	$(top_srcdir)/opal/mca/rcache/gpusm/configure.m4 \
+	$(top_srcdir)/opal/mca/rcache/rgpusm/configure.m4 \
 	$(top_srcdir)/opal/mca/sec/munge/configure.m4 \
 	$(top_srcdir)/opal/mca/sec/keystone/configure.m4 \
 	$(top_srcdir)/opal/mca/shmem/posix/configure.m4 \
-	$(top_srcdir)/opal/mca/shmem/sysv/configure.m4 \
 	$(top_srcdir)/opal/mca/shmem/mmap/configure.m4 \
-	$(top_srcdir)/opal/mca/timer/darwin/configure.m4 \
-	$(top_srcdir)/opal/mca/timer/altix/configure.m4 \
-	$(top_srcdir)/opal/mca/timer/linux/configure.m4 \
+	$(top_srcdir)/opal/mca/shmem/sysv/configure.m4 \
 	$(top_srcdir)/opal/mca/timer/solaris/configure.m4 \
+	$(top_srcdir)/opal/mca/timer/altix/configure.m4 \
+	$(top_srcdir)/opal/mca/timer/darwin/configure.m4 \
+	$(top_srcdir)/opal/mca/timer/linux/configure.m4 \
 	$(top_srcdir)/orte/mca/common/alps/configure.m4 \
-	$(top_srcdir)/orte/mca/ess/slurm/configure.m4 \
-	$(top_srcdir)/orte/mca/ess/alps/configure.m4 \
 	$(top_srcdir)/orte/mca/ess/lsf/configure.m4 \
 	$(top_srcdir)/orte/mca/ess/tm/configure.m4 \
+	$(top_srcdir)/orte/mca/ess/alps/configure.m4 \
+	$(top_srcdir)/orte/mca/ess/slurm/configure.m4 \
 	$(top_srcdir)/orte/mca/odls/alps/configure.m4 \
 	$(top_srcdir)/orte/mca/odls/default/configure.m4 \
-	$(top_srcdir)/orte/mca/oob/usock/configure.m4 \
-	$(top_srcdir)/orte/mca/oob/tcp/configure.m4 \
 	$(top_srcdir)/orte/mca/oob/ud/configure.m4 \
 	$(top_srcdir)/orte/mca/oob/alps/configure.m4 \
-	$(top_srcdir)/orte/mca/plm/slurm/configure.m4 \
-	$(top_srcdir)/orte/mca/plm/rsh/configure.m4 \
+	$(top_srcdir)/orte/mca/oob/tcp/configure.m4 \
+	$(top_srcdir)/orte/mca/oob/usock/configure.m4 \
 	$(top_srcdir)/orte/mca/plm/isolated/configure.m4 \
-	$(top_srcdir)/orte/mca/plm/alps/configure.m4 \
 	$(top_srcdir)/orte/mca/plm/lsf/configure.m4 \
 	$(top_srcdir)/orte/mca/plm/tm/configure.m4 \
-	$(top_srcdir)/orte/mca/ras/slurm/configure.m4 \
+	$(top_srcdir)/orte/mca/plm/alps/configure.m4 \
+	$(top_srcdir)/orte/mca/plm/rsh/configure.m4 \
+	$(top_srcdir)/orte/mca/plm/slurm/configure.m4 \
+	$(top_srcdir)/orte/mca/ras/lsf/configure.m4 \
+	$(top_srcdir)/orte/mca/ras/tm/configure.m4 \
 	$(top_srcdir)/orte/mca/ras/gridengine/configure.m4 \
 	$(top_srcdir)/orte/mca/ras/alps/configure.m4 \
 	$(top_srcdir)/orte/mca/ras/loadleveler/configure.m4 \
-	$(top_srcdir)/orte/mca/ras/lsf/configure.m4 \
-	$(top_srcdir)/orte/mca/ras/tm/configure.m4 \
+	$(top_srcdir)/orte/mca/ras/slurm/configure.m4 \
 	$(top_srcdir)/orte/mca/rml/ftrm/configure.m4 \
 	$(top_srcdir)/orte/mca/rtc/freq/configure.m4 \
 	$(top_srcdir)/ompi/mca/fbtl/configure.m4 \
@@ -373,30 +373,30 @@ am__aclocal_m4_deps = $(top_srcdir)/config/c_get_alignment.m4 \
 	$(top_srcdir)/ompi/mca/rte/configure.m4 \
 	$(top_srcdir)/ompi/mca/sharedfp/configure.m4 \
 	$(top_srcdir)/ompi/mca/bml/r2/configure.m4 \
-	$(top_srcdir)/ompi/mca/coll/fca/configure.m4 \
 	$(top_srcdir)/ompi/mca/coll/portals4/configure.m4 \
 	$(top_srcdir)/ompi/mca/coll/cuda/configure.m4 \
 	$(top_srcdir)/ompi/mca/coll/hcoll/configure.m4 \
-	$(top_srcdir)/ompi/mca/fbtl/posix/configure.m4 \
+	$(top_srcdir)/ompi/mca/coll/fca/configure.m4 \
 	$(top_srcdir)/ompi/mca/fbtl/plfs/configure.m4 \
+	$(top_srcdir)/ompi/mca/fbtl/posix/configure.m4 \
 	$(top_srcdir)/ompi/mca/fbtl/pvfs2/configure.m4 \
+	$(top_srcdir)/ompi/mca/fs/lustre/configure.m4 \
 	$(top_srcdir)/ompi/mca/fs/plfs/configure.m4 \
 	$(top_srcdir)/ompi/mca/fs/pvfs2/configure.m4 \
-	$(top_srcdir)/ompi/mca/fs/lustre/configure.m4 \
 	$(top_srcdir)/ompi/mca/io/ompio/configure.m4 \
 	$(top_srcdir)/ompi/mca/io/romio314/configure.m4 \
-	$(top_srcdir)/ompi/mca/mtl/psm2/configure.m4 \
-	$(top_srcdir)/ompi/mca/mtl/psm/configure.m4 \
-	$(top_srcdir)/ompi/mca/mtl/ofi/configure.m4 \
 	$(top_srcdir)/ompi/mca/mtl/portals4/configure.m4 \
+	$(top_srcdir)/ompi/mca/mtl/ofi/configure.m4 \
 	$(top_srcdir)/ompi/mca/mtl/mxm/configure.m4 \
-	$(top_srcdir)/ompi/mca/osc/rdma/configure.m4 \
+	$(top_srcdir)/ompi/mca/mtl/psm/configure.m4 \
+	$(top_srcdir)/ompi/mca/mtl/psm2/configure.m4 \
 	$(top_srcdir)/ompi/mca/osc/portals4/configure.m4 \
 	$(top_srcdir)/ompi/mca/osc/pt2pt/configure.m4 \
+	$(top_srcdir)/ompi/mca/osc/rdma/configure.m4 \
 	$(top_srcdir)/ompi/mca/pml/v/configure.m4 \
 	$(top_srcdir)/ompi/mca/pml/ucx/configure.m4 \
-	$(top_srcdir)/ompi/mca/pml/yalla/configure.m4 \
 	$(top_srcdir)/ompi/mca/pml/ob1/configure.m4 \
+	$(top_srcdir)/ompi/mca/pml/yalla/configure.m4 \
 	$(top_srcdir)/ompi/mca/rte/orte/configure.m4 \
 	$(top_srcdir)/ompi/mca/sharedfp/sm/configure.m4 \
 	$(top_srcdir)/oshmem/mca/memheap/configure.m4 \
@@ -406,12 +406,12 @@ am__aclocal_m4_deps = $(top_srcdir)/config/c_get_alignment.m4 \
 	$(top_srcdir)/oshmem/mca/scoll/fca/configure.m4 \
 	$(top_srcdir)/oshmem/mca/spml/ucx/configure.m4 \
 	$(top_srcdir)/oshmem/mca/spml/ikrit/configure.m4 \
+	$(top_srcdir)/oshmem/mca/sshmem/mmap/configure.m4 \
 	$(top_srcdir)/oshmem/mca/sshmem/sysv/configure.m4 \
 	$(top_srcdir)/oshmem/mca/sshmem/verbs/configure.m4 \
-	$(top_srcdir)/oshmem/mca/sshmem/mmap/configure.m4 \
-	$(top_srcdir)/ompi/mpiext/cr/configure.m4 \
 	$(top_srcdir)/ompi/mpiext/affinity/configure.m4 \
 	$(top_srcdir)/ompi/mpiext/cuda/configure.m4 \
+	$(top_srcdir)/ompi/mpiext/cr/configure.m4 \
 	$(top_srcdir)/ompi/contrib/libompitrace/configure.m4 \
 	$(top_srcdir)/config/opal_get_version.m4 \
 	$(top_srcdir)/configure.ac
@@ -1970,7 +1970,7 @@ distdir: $(DISTFILES)
 	  ! -type d ! -perm -444 -exec $(install_sh) -c -m a+r {} {} \; \
 	|| chmod -R a+r "$(distdir)"
 dist-gzip: distdir
-	tardir=$(distdir) && $(am__tar) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).tar.gz
+	tardir=$(distdir) && $(am__tar) | eval GZIP= gzip $(GZIP_ENV) -c >$(distdir).tar.gz
 	$(am__post_remove_distdir)
 dist-bzip2: distdir
 	tardir=$(distdir) && $(am__tar) | BZIP2=$${BZIP2--9} bzip2 -c >$(distdir).tar.bz2
@@ -1995,7 +1995,7 @@ dist-shar: distdir
 	@echo WARNING: "Support for shar distribution archives is" \
 	               "deprecated." >&2
 	@echo WARNING: "It will be removed altogether in Automake 2.0" >&2
-	shar $(distdir) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).shar.gz
+	shar $(distdir) | eval GZIP= gzip $(GZIP_ENV) -c >$(distdir).shar.gz
 	$(am__post_remove_distdir)
 
 dist-zip: distdir
@@ -2013,7 +2013,7 @@ dist dist-all:
 distcheck: dist
 	case '$(DIST_ARCHIVES)' in \
 	*.tar.gz*) \
-	  GZIP=$(GZIP_ENV) gzip -dc $(distdir).tar.gz | $(am__untar) ;;\
+	  eval GZIP= gzip $(GZIP_ENV) -dc $(distdir).tar.gz | $(am__untar) ;;\
 	*.tar.bz2*) \
 	  bzip2 -dc $(distdir).tar.bz2 | $(am__untar) ;;\
 	*.tar.lz*) \
@@ -2023,7 +2023,7 @@ distcheck: dist
 	*.tar.Z*) \
 	  uncompress -c $(distdir).tar.Z | $(am__untar) ;;\
 	*.shar.gz*) \
-	  GZIP=$(GZIP_ENV) gzip -dc $(distdir).shar.gz | unshar ;;\
+	  eval GZIP= gzip $(GZIP_ENV) -dc $(distdir).shar.gz | unshar ;;\
 	*.zip*) \
 	  unzip $(distdir).zip ;;\
 	esac

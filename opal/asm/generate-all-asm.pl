@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env/perl -w
 
 my $perl = shift;
 my $srcdir = shift;
